@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import { Mail, ArrowRight, Phone } from 'lucide-react';
 import './Footer.css';
 
@@ -23,7 +23,7 @@ const Footer = () => {
             <span className="neon-text font-bold text-xl">Propiedades</span>Colombia
             <p className="footer-desc mt-2">Marketing inmobiliario de alto impacto para propietarios exigentes.</p>
           </div>
-          
+
           <div className="footer-links">
             <div className="footer-col">
               <h4>Navegación</h4>
@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="footer-copyright">
           <p>&copy; {new Date().getFullYear()} Propiedades Colombia. Todos los derechos reservados.</p>
         </div>

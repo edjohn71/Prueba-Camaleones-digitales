@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Send, Phone } from 'lucide-react';
 import './LeadCapture.css';
 
@@ -12,7 +12,7 @@ const LeadCapture = () => {
             <p className="capture-subtitle">
               Déjanos tus datos y un experto asociado te contactará con un análisis de mercado sin costo y sin compromiso.
             </p>
-            
+
             <div className="contact-info">
               <div className="contact-item">
                 <Phone className="contact-icon" />
@@ -20,7 +20,7 @@ const LeadCapture = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="capture-form-wrapper">
             <form className="capture-form" onSubmit={(e) => e.preventDefault()}>
               <div className="form-group">

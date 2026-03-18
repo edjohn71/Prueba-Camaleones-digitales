@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import { ArrowRight, Home } from 'lucide-react';
 import './Hero.css';
 

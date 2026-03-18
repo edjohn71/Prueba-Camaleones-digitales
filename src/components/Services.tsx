@@ -10,7 +10,7 @@ const services = [
   },
   {
     icon: <Users className="service-icon" />,
-    title: 'Red de Compradores',
+    title: 'Marketing y automatizaciones',
     description: 'Acceso exclusivo a inversionistas y compradores pre-calificados tanto a nivel nacional como internacional.'
   },
   {

@@ -1,4 +1,4 @@
-import React from 'react';
+;
 import { DollarSign, Clock, LayoutDashboard } from 'lucide-react';
 import './Benefits.css';
 
@@ -28,7 +28,7 @@ const Benefits = () => {
           <h2 className="section-title">¿Por qué vender con <span className="gradient-text">Nosotros?</span></h2>
           <p className="section-subtitle">Tu tranquilidad es nuestra prioridad. Cuidamos tu patrimonio como si fuera nuestro.</p>
         </div>
-        
+
         <div className="benefits-grid">
           {benefits.map((benefit, idx) => (
             <div key={idx} className="benefit-card glass-card">
