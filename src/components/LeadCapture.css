@@ -1,0 +1,119 @@
+.capture-section {
+  padding: 6rem 0;
+  position: relative;
+}
+
+.capture-container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(0, 210, 255, 0.3);
+  box-shadow: 0 0 40px rgba(0, 210, 255, 0.1);
+}
+
+@media (min-width: 900px) {
+  .capture-container {
+    flex-direction: row;
+  }
+}
+
+.capture-content {
+  flex: 1;
+  padding: 3rem;
+  background: linear-gradient(135deg, rgba(5, 11, 20, 0.9), rgba(10, 20, 40, 0.9));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.capture-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(90deg, #fff, var(--primary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.capture-subtitle {
+  font-size: 1.125rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.contact-info {
+  margin-top: auto;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.capture-form-wrapper {
+  flex: 1;
+  padding: 3rem;
+  background: rgba(10, 20, 40, 0.6);
+  backdrop-filter: blur(20px);
+}
+
+.capture-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.form-group input,
+.form-group select {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--text-primary);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  transition: all var(--transition-speed);
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 10px rgba(0, 210, 255, 0.2);
+}
+
+.form-group select option {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.submit-btn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1.25rem;
+  font-size: 1.125rem;
+}
+
+.form-disclaimer {
+  font-size: 0.75rem;
+  text-align: center;
+  margin-top: 1rem;
+  opacity: 0.6;
+}
