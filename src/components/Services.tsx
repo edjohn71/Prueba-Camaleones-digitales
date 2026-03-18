@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Camera, Users, Target, Activity } from 'lucide-react';
 import './Services.css';
 
@@ -35,7 +35,7 @@ const Services = () => {
             Implementamos las mejores estrategias del mercado inmobiliario para vender tu propiedad en tiempo récord.
           </p>
         </div>
-        
+
         <div className="services-grid">
           {services.map((service, index) => (
             <div key={index} className="service-card glass-card">

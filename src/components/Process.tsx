@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Search, PenTool, TrendingUp, Handshake } from 'lucide-react';
 import './Process.css';
 
@@ -33,7 +33,7 @@ const Process = () => {
           <h2 className="section-title">El camino hacia la <span className="gradient-text">Venta Exitosa</span></h2>
           <p className="section-subtitle">Un proceso claro, seguro y optimizado para evitar dolores de cabeza y vender con confianza.</p>
         </div>
-        
+
         <div className="process-timeline">
           {steps.map((step, idx) => (
             <div key={idx} className="process-step">
